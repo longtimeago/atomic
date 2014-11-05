@@ -6,13 +6,15 @@ package ua.dp.skillsup;
  */
 public class CounterFactory {
 	public enum CounterType {
-		ATOMIC, DIVIDE_ONE, DIVIDE_TWO
+		ATOMIC, FAST //, DIVIDE_ONE, DIVIDE_TWO
 	}
 
 	public static Counter build(CounterType type) {
 		switch (type) {
 			case ATOMIC:
 				return new AtomicCounter();
+            case FAST:
+                return new FastCounter(255);
 //			case DIVIDE_ONE:
 //				return new CounterDivideAndRuleOne();
 //			case DIVIDE_TWO:

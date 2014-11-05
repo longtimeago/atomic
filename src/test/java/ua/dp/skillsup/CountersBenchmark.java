@@ -4,6 +4,7 @@ package ua.dp.skillsup;
 import org.openjdk.jmh.annotations.*;
 
 @State(Scope.Group)
+@Fork(1)
 public class CountersBenchmark {
 	private Counter counter;
 
