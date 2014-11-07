@@ -14,7 +14,7 @@ public class CounterFactory {
 			case ATOMIC:
 				return new AtomicCounter();
             case FAST:
-                return new FastCounter(255);
+                return new FastCounter(256);
 //			case DIVIDE_ONE:
 //				return new CounterDivideAndRuleOne();
 //			case DIVIDE_TWO:
