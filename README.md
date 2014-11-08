@@ -16,6 +16,7 @@ u.d.s.CountersBenchmark.rw:inc             FAST  thrpt       20  374283397.122 �
 Increment operation become blazingly fast (~34 times faster)
 
 Test environment:
-    Intel® Core™ i7-3770 CPU @ 3.40GHz × 8
-    RAM 32GB
-    Ubuntu 14.04
+ Intel® Core™ i7-3770 CPU @ 3.40GHz × 8
+ RAM 32GB
+ Ubuntu 14.04
+ Java 1.7.0_60
