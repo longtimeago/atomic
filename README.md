@@ -30,4 +30,3 @@ Test environment:
  Intel® Core™ i7-3770 CPU @ 3.40GHz × 8
  RAM 32GB
  Ubuntu 14.04
- Java 1.7.0_60
